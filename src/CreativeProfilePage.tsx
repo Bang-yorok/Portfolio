@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 type Locale = 'vi' | 'en';
 
 const hlsSource = 'https://stream.mux.com/Aa02T7oM1wH5Mk5EEVDYhbZ1ChcdhRsS2m1NYyx4Ua1g.m3u8';
-const portrait = '/profile-cv-1-1.png';
+const portrait = `${import.meta.env.BASE_URL}profile-cv-1-1.png`;
 const gmailComposeUrl = (email: string) =>
   `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
 
